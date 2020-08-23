@@ -535,9 +535,15 @@ footer a:hover {
     color: var(--steel-blue);
 }
 
-#vs img {
+#vs button {
+    position: absolute;
     bottom: 45%;
     left: 45%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    background-color: white;
 }
 
 #impact {
@@ -592,7 +598,7 @@ footer a:hover {
     height: 100vh;
 }
 
-#sk-donate {
+#pv-donate, #sk-donate, #sh-donate, #um-donate, #pr-donate {
     height: 100vh;
 }
 
@@ -732,10 +738,6 @@ footer a:hover {
 }
 
 #pv-intro {
-    height: 100vh;
-}
-
-#pv-donate {
     height: 100vh;
 }
 
