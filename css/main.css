@@ -141,6 +141,12 @@ a:hover, a:active {
     height: 80px;
 }
 
+.lp-nav-logo {
+    width: 100px;
+    height: 100px;
+}
+
+
 .nav-fade {
     z-index: 1;
     position: fixed;
@@ -307,9 +313,39 @@ footer a:hover {
 
 /* Landing Page Section */
 
+#slideshow-container {
+    width: 49%;
+    height: 100vh;
+    background-color: var(--light-gray);
+    position: absolute;
+    right: 0;
+}
+
+#lp-slideshow {
+    margin-top: 10%;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
 #lp {
     height: 100vh;
-    background-image: url("../files/images/lp-md-bg.png");
+    background-color: var(--gray);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -322,6 +358,7 @@ footer a:hover {
 #bottom-menu {
     padding-bottom: 2.5rem;
     font-size: 20px;
+    width: 45%;
 }
 
 #intro-image {
