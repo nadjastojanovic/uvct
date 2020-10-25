@@ -719,6 +719,10 @@ footer a:hover {
     background-color: rgba(39, 75, 105, 1);
 }
 
+.bt-donate a {
+    color: white;
+}
+
 .donation-message {
     z-index: -10;
     opacity: 0;
